@@ -10,7 +10,6 @@ galleryItems.forEach((element) => {
   //Створення тегів галереї і класів до тегів
   const galleryItem = document.createElement("div");
   galleryItem.classList.add("gallery__item");
-
   const galleryLink = document.createElement("a");
   galleryLink.classList.add("gallery__link");
 
